@@ -33,7 +33,7 @@ function sendPHPMailer($to, $subject, $bodyHtml) {
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
         $mail->Username = 'bornikdekaviraj@gmail.com';         // 🔒 Your Gmail address
-        $mail->Password = 'dfia uxlm erom pcch';           // 🔒 App password (NOT Gmail password)
+        $mail->Password = '';           // 🔒 App password (NOT Gmail password) (Generate your app password from Google)
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 
