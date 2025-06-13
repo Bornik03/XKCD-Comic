@@ -1,1 +1,1 @@
-Suitable for virtual world emails.
+Suitable for sending emails to real emails.
